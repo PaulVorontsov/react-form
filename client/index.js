@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom'
 
-import CForm from './ExampleForm';
+import ExampleForm from './ExampleForm';
 
 const formData = {
     id: 1,
@@ -17,7 +17,7 @@ const formData = {
 
 render(
     <div className="col-md-4">
-        <CForm data={formData}/>
+        <ExampleForm data={formData}/>
     </div>,
     document.getElementById('root')
 );
